@@ -38,8 +38,8 @@ if ($check->num_rows > 0) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
 
-        $mail->Username = 'ekhandebhakti2002@gmail.com';   // 👉 your Gmail
-        $mail->Password = 'gdpbmbbnmszthnqo';      // 👉 app password (no spaces)
+       $mail->Username = 'your_email@gmail.com';   // 👉 your Gmail
+       $mail->Password = 'your_app_password';     // 👉 app password (no spaces)
 
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
